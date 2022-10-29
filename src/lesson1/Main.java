@@ -1,4 +1,4 @@
-package src.main.java.lesson1;
+package src.lesson1;
 
 import java.net.NetworkInterface;
 import java.net.SocketException;
