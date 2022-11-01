@@ -3,6 +3,8 @@ import java.util.List;
 
 import org.junit.Test;
 
+import lesson1.NetworkInterfaceDisplay;
+
 import static org.junit.Assert.assertTrue;
 
 public class Lesson1Test {
