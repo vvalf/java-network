@@ -1,4 +1,4 @@
-package lesson1;
+package lessonOne;
 
 import java.net.NetworkInterface;
 import java.net.SocketException;
