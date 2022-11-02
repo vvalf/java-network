@@ -27,7 +27,7 @@
 
   <build>
     <finalName>java-network</finalName>
-    <testSourceDirectory>src/main/test</testSourceDirectory>
+<!--    <testSourceDirectory>src/main/test</testSourceDirectory>-->
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
