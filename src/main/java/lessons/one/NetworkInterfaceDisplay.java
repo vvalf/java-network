@@ -8,6 +8,7 @@ import java.util.Enumeration;
 import java.util.List;
 
 public class NetworkInterfaceDisplay {
+
     public List<String> getInfo() throws SocketException {
         Enumeration<NetworkInterface> nets = NetworkInterface.getNetworkInterfaces();
 
