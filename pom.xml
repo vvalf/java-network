@@ -33,7 +33,6 @@
 
     <build>
         <finalName>java-network</finalName>
-<!--        <testSourceDirectory>src/test</testSourceDirectory>-->
         <pluginManagement>
             <plugins>
                 <plugin>
