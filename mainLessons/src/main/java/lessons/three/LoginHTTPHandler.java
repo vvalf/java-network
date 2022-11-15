@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
-import static java.nio.charset.StandardCharsets.*;
+import static java.nio.charset.StandardCharsets.UTF_8;
 
 public class LoginHTTPHandler implements HttpHandler {
 
