@@ -14,7 +14,7 @@ public class HTTPServerForPost {
         server.createContext("/login", new LoginHTTPHandler());
         server.start();
 
-        new HTTPClient().asynchronousPostRequest("http://localhost:8080/login"); //todo change to testMethod
+        new HTTPClient().asynchronousPostRequest("http://localhost:8080/login"); //will change to testMethod
     }
 
 
