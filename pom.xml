@@ -12,6 +12,8 @@
         <module>lesson4Client</module>
         <module>lesson5Client</module>
         <module>lesson5Server</module>
+        <module>lesson6Server</module>
+        <module>lesson6Client</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -24,6 +26,7 @@
         <junit.version>4.13.2</junit.version>
         <junit-jupiter-api.version>5.9.1</junit-jupiter-api.version>
         <maven-assembly-plugin.version>3.4.2</maven-assembly-plugin.version>
+        <netty-all.version>4.1.85.Final</netty-all.version>
     </properties>
 
     <dependencies>
@@ -38,6 +41,11 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit-jupiter-api.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty-all.version}</version>
         </dependency>
     </dependencies>
 
