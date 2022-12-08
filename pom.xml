@@ -12,6 +12,8 @@
         <module>lesson4Client</module>
         <module>lesson5Client</module>
         <module>lesson5Server</module>
+        <module>lesson7Server</module>
+        <module>lesson7Client</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -24,6 +26,8 @@
         <junit.version>4.13.2</junit.version>
         <junit-jupiter-api.version>5.9.1</junit-jupiter-api.version>
         <maven-assembly-plugin.version>3.4.2</maven-assembly-plugin.version>
+        <jetty-client.version>11.0.12</jetty-client.version>
+        <jetty-server.version>11.0.12</jetty-server.version>
     </properties>
 
     <dependencies>
@@ -38,6 +42,16 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit-jupiter-api.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-client</artifactId>
+            <version>${jetty-client.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>${jetty-server.version}</version>
         </dependency>
     </dependencies>
 
