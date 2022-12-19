@@ -12,6 +12,8 @@
         <module>lesson4Client</module>
         <module>lesson5Client</module>
         <module>lesson5Server</module>
+        <module>lesson6Server</module>
+        <module>lesson6Client</module>
         <module>lesson7Server</module>
         <module>lesson7Client</module>
     </modules>
@@ -28,6 +30,7 @@
         <maven-assembly-plugin.version>3.4.2</maven-assembly-plugin.version>
         <jetty-client.version>11.0.12</jetty-client.version>
         <jetty-server.version>11.0.12</jetty-server.version>
+        <netty-all.version>4.1.85.Final</netty-all.version>
     </properties>
 
     <dependencies>
@@ -52,6 +55,11 @@
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-server</artifactId>
             <version>${jetty-server.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty-all.version}</version>
         </dependency>
     </dependencies>
 
