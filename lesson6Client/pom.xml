@@ -28,7 +28,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>lessons.six.FinalProjectClient</mainClass>
+                            <mainClass>lessons.six.Lesson6Client</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
