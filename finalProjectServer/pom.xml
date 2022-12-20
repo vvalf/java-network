@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lesson6Client</artifactId>
+    <artifactId>finalProjectServer</artifactId>
 
     <build>
         <plugins>
@@ -28,7 +28,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>lessons.six.FinalProjectClient</mainClass>
+                            <mainClass>finalProject.finalProjectServer</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

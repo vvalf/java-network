@@ -16,6 +16,8 @@
         <module>lesson6Client</module>
         <module>lesson7Server</module>
         <module>lesson7Client</module>
+        <module>finalProjectServer</module>
+        <module>finalProjectClient</module>
     </modules>
     <packaging>pom</packaging>
 
